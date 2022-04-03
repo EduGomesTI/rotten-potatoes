@@ -30,6 +30,6 @@ jobs:
           push: true
           tags: |
             edugomesti/rotten-potatoes:latest
-            edugomesti/rotten-potatoes:${{ github.run_number }}
+            edugomesti/rotten-potatoes:v${{ github.run_number }}
 
 
